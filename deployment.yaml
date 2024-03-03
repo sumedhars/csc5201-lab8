@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: flask-kubernetes
-          image: registry.digitalocean.com/csc5201-lab8/sumedhars/lab8image:1.0.0
+          image: registry.digitalocean.com/csc5201-lab8/sumedhars/lab8image:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
