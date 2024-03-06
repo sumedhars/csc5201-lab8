@@ -21,4 +21,4 @@ spec:
           image: registry.digitalocean.com/csc5201-lab8/sumedhars/lab8image:latest
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 8000
+            - containerPort: 5000
