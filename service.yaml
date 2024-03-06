@@ -4,9 +4,9 @@ metadata:
   name: flask-kubernetes
 spec:
   ports:
-  - port: 8000
+  - port: 5000
     protocol: TCP
-    targetPort: 8000
+    targetPort: 5000
   selector:
     app: flask-kubernetes
   type: LoadBalancer
